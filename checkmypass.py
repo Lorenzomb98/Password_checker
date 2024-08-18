@@ -24,6 +24,8 @@ def get_password_leaks_count(hashes, hash_to_check):
  fetches the hashes from the API that match the first 5 characters of the user's hash,
  and locally compares the fetched hashes to the user's complete hash, 
  always keeping the user's complete hash on the machine
+
+ # To use the program, simply write "python checkmypass.py <password>" in the terminal
 '''
 def pwned_api_check(password):
     # Check password if it exists in API response
