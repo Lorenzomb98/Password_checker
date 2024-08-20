@@ -1,4 +1,4 @@
-#importing necessary modules
+# Importing necessary modules
 import requests
 import hashlib
 import sys
